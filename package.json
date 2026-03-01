@@ -6,7 +6,7 @@
     "name": "mdmufees",
     "email": "40721223+mdmufees@users.noreply.github.com"
   },
-  "homepage": "https://github.com/mohamedmufees/vibcodcalc",
+  "homepage": "https://github.com/mdmufees/vibcodcalc",
   "main": "./out/main/index.js",
   "scripts": {
     "dev": "electron-vite dev",
