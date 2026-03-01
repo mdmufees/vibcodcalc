@@ -1,0 +1,23 @@
+appId: com.vibcodcalc.app
+productName: VibCodCalc
+directories:
+  buildResources: resources
+  output: dist
+files:
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.*'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
+  - '!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}'
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Utility
+mac:
+  target:
+    - dmg
+  category: public.app-category.utilities
+win:
+  target:
+    - nsis

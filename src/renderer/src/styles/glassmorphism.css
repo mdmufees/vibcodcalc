@@ -1,0 +1,44 @@
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 32px var(--shadow-color);
+}
+
+.glass-panel-sm {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+}
+
+.neon-text {
+  color: var(--accent);
+  text-shadow: var(--accent-text-glow);
+}
+
+.neon-border {
+  border-color: rgba(var(--accent-rgb), 0.4);
+  box-shadow: var(--accent-glow);
+}
+
+.neon-border-subtle {
+  border-color: rgba(var(--accent-rgb), 0.2);
+  box-shadow: 0 0 10px rgba(var(--accent-rgb), 0.1);
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: var(--orb-opacity);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb-accent {
+  background: var(--accent);
+}

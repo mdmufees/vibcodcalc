@@ -1,0 +1,76 @@
+/* Dark mode base */
+[data-theme="dark"] {
+  --bg-primary: #0a0a1a;
+  --bg-secondary: #111128;
+  --bg-tertiary: #1a1a3e;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888aa;
+  --text-muted: #555577;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: 20px;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --btn-bg: rgba(255, 255, 255, 0.06);
+  --btn-hover: rgba(255, 255, 255, 0.12);
+  --btn-active: rgba(255, 255, 255, 0.18);
+  --orb-opacity: 0.15;
+}
+
+/* Light mode base */
+[data-theme="light"] {
+  --bg-primary: #e8e8f4;
+  --bg-secondary: #d8d8ea;
+  --bg-tertiary: #c8c8de;
+  --text-primary: #1a1a2e;
+  --text-secondary: #555577;
+  --text-muted: #8888aa;
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-blur: 20px;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --btn-bg: rgba(255, 255, 255, 0.5);
+  --btn-hover: rgba(255, 255, 255, 0.7);
+  --btn-active: rgba(255, 255, 255, 0.9);
+  --orb-opacity: 0.2;
+}
+
+/* Accent colors */
+[data-accent="cyan"] {
+  --accent: #00e5ff;
+  --accent-rgb: 0, 229, 255;
+  --accent-dim: #006680;
+  --accent-glow: 0 0 20px rgba(0, 229, 255, 0.4), 0 0 60px rgba(0, 229, 255, 0.1);
+  --accent-text-glow: 0 0 10px rgba(0, 229, 255, 0.6), 0 0 30px rgba(0, 229, 255, 0.3);
+}
+
+[data-accent="magenta"] {
+  --accent: #ff00e5;
+  --accent-rgb: 255, 0, 229;
+  --accent-dim: #800073;
+  --accent-glow: 0 0 20px rgba(255, 0, 229, 0.4), 0 0 60px rgba(255, 0, 229, 0.1);
+  --accent-text-glow: 0 0 10px rgba(255, 0, 229, 0.6), 0 0 30px rgba(255, 0, 229, 0.3);
+}
+
+[data-accent="green"] {
+  --accent: #39ff14;
+  --accent-rgb: 57, 255, 20;
+  --accent-dim: #1d8009;
+  --accent-glow: 0 0 20px rgba(57, 255, 20, 0.4), 0 0 60px rgba(57, 255, 20, 0.1);
+  --accent-text-glow: 0 0 10px rgba(57, 255, 20, 0.6), 0 0 30px rgba(57, 255, 20, 0.3);
+}
+
+[data-accent="orange"] {
+  --accent: #ff6600;
+  --accent-rgb: 255, 102, 0;
+  --accent-dim: #803300;
+  --accent-glow: 0 0 20px rgba(255, 102, 0, 0.4), 0 0 60px rgba(255, 102, 0, 0.1);
+  --accent-text-glow: 0 0 10px rgba(255, 102, 0, 0.6), 0 0 30px rgba(255, 102, 0, 0.3);
+}
+
+[data-accent="purple"] {
+  --accent: #bf00ff;
+  --accent-rgb: 191, 0, 255;
+  --accent-dim: #600080;
+  --accent-glow: 0 0 20px rgba(191, 0, 255, 0.4), 0 0 60px rgba(191, 0, 255, 0.1);
+  --accent-text-glow: 0 0 10px rgba(191, 0, 255, 0.6), 0 0 30px rgba(191, 0, 255, 0.3);
+}
